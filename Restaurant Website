@@ -1,0 +1,53 @@
+Restaurant Website - Login and Signup Page
+Project Name:
+Restaurant Website - Login and Signup Page (Front-end Only)
+
+Domain:
+Web Development
+
+Level:
+Medium
+
+Description:
+This project involves creating an attractive and responsive login and signup page using React, HTML, CSS, and JavaScript. The focus is on crafting a visually appealing design with gradient backgrounds, animations, and form validation. The project aims to provide users with an intuitive and aesthetically pleasing interface for authentication.
+
+Key Features:
+1. Attractive Design:
+The login and signup pages feature a modern design with gradient backgrounds that smoothly transition through multiple colors.
+Both pages are enclosed in a sleek, white container with rounded corners and a subtle shadow effect to create a floating appearance.
+The design employs Google Fonts for better typography and improved readability.
+2. Responsiveness:
+The pages are fully responsive, ensuring a seamless user experience across various devices and screen sizes.
+The layout adjusts gracefully for smaller screens, such as mobile devices, while maintaining usability and aesthetics.
+3. CSS Decoration:
+Extensive use of CSS for styling and decoration, including hover effects, focus states, and button animations.
+The gradient background animation adds a dynamic and engaging visual effect to the page.
+Decorative elements such as border radii, box shadows, and custom fonts enhance the overall user experience.
+4. Form Validation:
+Basic form validation is implemented for both login and signup forms to ensure all fields are filled out before submission.
+The signup form includes a password policy that requires the password to be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, one number, and one special character.
+Popup messages provide feedback to the user if the form validation fails, enhancing usability.
+5. Navigation Links:
+The login page includes a link for users to navigate to the signup form if they do not have an account.
+Similarly, the signup page includes a link for users to navigate back to the login form if they already have an account.
+6. GitHub Repository:
+The entire project is organized and uploaded to a GitHub repository named "project-nexus" for version control and collaboration.
+The GitHub repository contains the HTML, CSS, JavaScript, and React files structured in a clean and maintainable manner.
+Project Files:
+HTML (index.html):
+The HTML file structures the login and signup forms with appropriate elements and placeholders.
+Includes links to the external CSS stylesheet and JavaScript file.
+CSS (styles.css):
+The CSS file styles the login and signup forms, adds animations, and ensures responsiveness.
+Contains keyframes for gradient background animation and fade-in effect for the form container.
+JavaScript (script.js):
+The JavaScript file handles form validation for both login and signup forms.
+Includes functions to toggle between login and signup forms based on user interaction.
+Provides popup messages to guide users on password requirements and form completion.
+React Components:
+Home.js: The main page that includes links to login and signup pages.
+Login.js: The login page component with form validation and navigation link to the signup page.
+Signup.js: The signup page component with form validation and navigation link to the login page.
+App.js: The main React component that routes between Home, Login, and Signup components.
+Conclusion:
+This project demonstrates the use of basic web development technologies and React to create a user-friendly and visually appealing login and signup interface. By incorporating modern design elements, animations, and form validation, the project enhances the user experience and provides a solid foundation for further development and integration with backend authentication systems.
