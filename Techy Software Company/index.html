@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="LOGO.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <title>Software Company Website</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   <!-- header section starts  -->
+<header class="header">
+  <a href="#" class="logo">Techy Software <span>Company</span></a>
+
+  <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#services">services</a>
+      <a href="#projects">projects</a>
+      <a href="#pricing">pricing</a>
+      <a href="#contact">contact</a>
+  </nav>
+
+  <div class="icons">
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <div id="info-btn" class="fas fa-info-circle"></div>
+      <div id="search-btn" class="fas fa-search"></div>
+      <div id="login-btn" class="fas fa-user"></div>
+  </div>
+
+  <form action="" class="search-form">
+      <input type="search" placeholder="search here..." id="search-box" />
+      <label for="search-box" class="fas fa-search"></label>
+  </form>
+
+  <form action="" class="login-form">
+      <h3>login form</h3>
+      <input type="email" placeholder="enter your email" class="box" />
+      <input type="password" placeholder="enter your password" class="box" />
+      <div class="flex">
+          <input type="checkbox" id="remember-me" />
+          <label for="remember-me">remember me</label>
+          <a href="#">forgot password?</a>
+      </div>
+      <input type="submit" value="login now" class="btn" />
+      <p>don't have an account <a href="#" id="signup-link">create one!</a></p>
+  </form>
+
+  <form action="" class="signup-form">
+      <h3>signup form</h3>
+      <input type="email" placeholder="enter your email" class="box" />
+      <input type="password" placeholder="enter your password" class="box password" />
+      <div class="password-message"></div>
+      <input type="submit" value="sign up now" class="btn" />
+      <p>already have an account <a href="#" id="login-link">login here!</a></p>
+  </form>
+</header>
+
+<div class="contact-info">
+  <div id="close-contact-info" class="fas fa-times"></div>
+
+  <div class="info">
+      <i class="fas fa-phone"></i>
+      <h3>Phone number</h3>
+      <p>+987-654-3210</p>
+      <p>+999-888-4444</p>
+  </div>
+
+  <div class="info">
+      <i class="fas fa-envelope"></i>
+      <h3>email address</h3>
+      <p>admin@techy.com</p>
+  </div>
+
+  <div class="info">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>Office address</h3>
+      <p>Long Beach, New York(NY), 11561</p>
+  </div>
+
+  <div class="share">
+      <a href="https://www.instagram.com/b_l_a_c_k__d_a_y/" class="fab fa-instagram"></a>
+      <a href="https://www.linkedin.com/in/kalaiyarasan-g-63b452271/" class="fab fa-linkedin"></a>
+  </div>
+</div>
+<!-- header section ends -->
+
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/BG1.png) no-repeat"
+          >
+            <div class="content">
+              <h3>Where Vision Meets Innovation</h3>
+              <p>
+                Customized IT solutions designed to fit your unique needs. Let’s create something extraordinary together.
+              </p>
+              <a href="#about" class="btn">Get started</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/BG2.png) no-repeat"
+          >
+            <div class="content">
+              <h3>Transform Your Digital Landscape</h3>
+              <p>
+                Empower your business with next-gen web development, mobile apps, and AI innovations.
+              </p>
+              <a href="#about" class="btn">get started</a>
+            </div>
+          </section>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading">about us</h1>
+
+      <div class="row">
+        <div class="video">
+          <video src="https://www.youtube.com/watch?v=QyhwSYhX09s" loop muted autoplay></video>
+        </div>
+
+        <div class="content">
+          <h3>Turning Your Vision into Reality</h3>
+        <p>At Software Company, we blend technology with creativity to deliver solutions that exceed your expectations. Whether it's a dynamic website, a groundbreaking mobile app, or advanced AI solutions, we’re here to help you excel in the digital world.
+        </p>
+          <a href="#services" class="btn">read more</a>
+        </div>
+      </div>
+
+      <div class="box-container">
+        <div class="box">
+          <h3>18+</h3>
+          <p>Years of experience</p>
+        </div>
+
+        <div class="box">
+          <h3>2000+</h3>
+          <p>Project completed</p>
+        </div>
+
+        <div class="box">
+          <h3>800+</h3>
+          <p>Satiesfied clients</p>
+        </div>
+
+        <div class="box">
+          <h3>150+</h3>
+          <p>Active developers</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- services section starts  -->
+
+<section class="services" id="services">
+  <h1 class="heading">our services</h1>
+
+  <div class="box-container">
+    <div class="box">
+      <img src="images/Web.png" alt="" />
+      <h3>Custom Web Development</h3>
+      <p>
+        Elevate your digital presence with transformative web designs that provide seamless, user-friendly experiences across all devices.
+      </p>
+    </div>
+
+    <div class="box">
+      <img src="images/Phone.png" alt="" />
+      <h3>Mobile App Development</h3>
+      <p>
+        Create innovative mobile apps for iOS and Android, designed to boost engagement and streamline your business operations.
+      </p>
+    </div>
+
+    <div class="box">
+      <img src="images/AIndML.png" alt="" />
+      <h3>AI & Machine Learning Solutions</h3>
+      <p>
+        Unlock valuable insights, automate processes, and redefine your business strategy with advanced AI and machine learning technologies.
+      </p>
+    </div>
+
+    <div class="box">
+      <img src="images/Lock.png" alt="" />
+      <h3>Cybersecurity Services</h3>
+      <p>
+        Protect your digital assets and ensure business continuity with comprehensive cybersecurity solutions tailored to guard against evolving threats.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- services section ends -->
+
+    <section class="projects" id="projects">
+      <h1 class="heading">our projects</h1>
+
+      <div class="box-container">
+        <a href="images/Eco.png" class="box">
+          <div class="image">
+            <img src="images/Eco.png" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>EcoTrack</h3>
+              <p>
+                Sustainability tracking software that helps businesses monitor and reduce their environmental impact.
+              </p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        
+
+        <a href="images/Health.png" class="box">
+          <div class="image">
+            <img src="images/Health.png" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>HealthMate</h3>
+              <p>
+               A comprehensive health management app that offers personalized wellness plans, tracking, and telehealth features.
+              </p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        
+
+        <a href="images/Market.png" class="box">
+          <div class="image">
+            <img src="images/Market.png" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>MarketPulse</h3>
+              <p>
+                Advanced analytics platform for real-time market data and insights, empowering businesses to make informed decisions.
+              </p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+
+
+        <a href="images/Virtu.png" class="box">
+          <div class="image">
+            <img src="images/Virtu.png" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>VirtuMeet</h3>
+                <p>
+                 Immersive virtual meeting software with collaborative tools for enhanced remote communication and teamwork.
+                </p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- projects section ends -->
+
+    <!-- reviews section starts  -->
+
+    <section class="reviews">
+      <h1 class="heading">clients reviews</h1>
+
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <p>
+              Exceptional service and innovative solutions. Their team took our ideas and turned them into a successful product that exceeded our expectations. Highly recommended!
+            </p>
+            <div class="user">
+              <img src="images/Emily Thompson.jpg" alt="" />
+              <div class="info">
+                <h3>Emily Thompson</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              The attention to detail and commitment to excellence were evident throughout the project. The final result was not only functional but also beautifully designed.
+            </p>
+            <div class="user">
+              <img src="images/Michael Rodriguez.jpg" alt="" />
+              <div class="info">
+                <h3>Michael Rodriguez</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Working with this team was a fantastic experience. They provided expert guidance and support, ensuring that every aspect of our project was handled with care and precision.
+            </p>
+            <div class="user">
+              <img src="images/Sophia Nguyen.jpg" alt="" />
+              <div class="info">
+                <h3>Sophia Nguyen</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Professional, reliable, and creative. Their ability to understand our needs and deliver tailored solutions made all the difference in achieving our business goals.
+            </p>
+            <div class="user">
+              <img src="images/James Anderson.jpg" alt="" />
+              <div class="info">
+                <h3>James Anderson</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              An outstanding partner in our digital transformation journey. Their technical expertise and innovative approach have significantly enhanced our business operations.
+            </p>
+            <div class="user">
+              <img src="images/Isabella Martinez.jpg" alt="" />
+              <div class="info">
+                <h3>Isabella Martinez</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Their dedication to quality and customer satisfaction is unparalleled. The team went above and beyond to deliver a solution that perfectly aligns with our vision and needs.
+            </p>
+            <div class="user">
+              <img src="images/David Johnson.jpg" alt="" />
+              <div class="info">
+                <h3>David Johnson</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- reviews section ends -->
+
+    <!-- pricing section starts -->
+
+<section class="pricing" id="pricing">
+  <h1 class="heading">Choose Your Perfect Plan</h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <img src="images/Basic.png" alt="Basic Plan Logo" class="plan-logo">
+      <h3>Basic Plan</h3>
+      <div class="price"><span>$</span>250<span>/mo</span></div>
+      <div class="list">
+        <p><i class="fas fa-check-circle"></i> Essential Development Tools</p>
+        <p><i class="fas fa-check-circle"></i> Monthly Site Updates</p>
+        <p><i class="fas fa-check-circle"></i> Basic Security Monitoring</p>
+        <p><i class="fas fa-check-circle"></i> Email Support</p>
+        <p><i class="fas fa-check-circle"></i> Analytics Dashboard Access</p>
+      </div>
+      <a href="#" class="btn">Get Started</a>
+    </div>
+
+    <div class="box popular">
+      <img src="images/Premium.png" alt="Premium Plan Logo" class="plan-logo">
+      <h3>Premium Plan</h3>
+      <div class="price"><span>$</span>650<span>/mo</span></div>
+      <div class="list">
+        <p><i class="fas fa-check-circle"></i> Custom Development Hours</p>
+        <p><i class="fas fa-check-circle"></i> Enhanced Security Reports</p>
+        <p><i class="fas fa-check-circle"></i> Priority Support</p>
+        <p><i class="fas fa-check-circle"></i> Advanced AI Tools</p>
+        <p><i class="fas fa-check-circle"></i> Bi-Weekly Optimizations</p>
+      </div>
+      <a href="#" class="btn">Most Popular</a>
+    </div>
+
+    <div class="box">
+      <img src="images/Ultimate.png" alt="Ultimate Plan Logo" class="plan-logo">
+      <h3>Ultimate Plan</h3>
+      <div class="price"><span>$</span>1250<span>/mo</span></div>
+      <div class="list">
+        <p><i class="fas fa-check-circle"></i> Dedicated Development Team</p>
+        <p><i class="fas fa-check-circle"></i> Comprehensive Security Suite</p>
+        <p><i class="fas fa-check-circle"></i> 24/7 Priority Support</p>
+        <p><i class="fas fa-check-circle"></i> Monthly Strategy Sessions</p>
+        <p><i class="fas fa-check-circle"></i> Custom AI Development</p>
+      </div>
+      <a href="#" class="btn">Go Ultimate</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- pricing section ends -->
+
+
+    <!-- contact section starts  -->
+
+<section class="contact" id="contact">
+  <h1 class="heading">contact us</h1>
+
+  <div class="row">
+    <iframe
+      class="map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48480.38216685297!2d-73.70975008114337!3d40.5852281814403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c26ff6430184c9%3A0xd3936da1e33b9063!2sLong%20Beach%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1723994308476!5m2!1sen!2sin"
+      width="600"
+      height="450"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <form action="">
+      <h3>Get in touch</h3>
+      <input type="text" placeholder="name" class="box" />
+      <input type="email" placeholder="email" class="box" />
+      <input type="number" placeholder="phone" class="box" />
+      <textarea
+        name=""
+        placeholder="message"
+        class="box"
+        id=""
+        cols="30"
+        rows="10"
+      ></textarea>
+      <input type="submit" value="send message" class="btn" />
+    </form>
+  </div>
+</section>
+
+<!-- contact section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="links">
+        <a class="btn" href="#home">home</a>
+        <a class="btn" href="#about">about</a>
+        <a class="btn" href="#services">services</a>
+        <a class="btn" href="#projects">projects</a>
+        <a class="btn" href="#pricing">pricing</a>
+        <a class="btn" href="#contact">contact</a>
+      </div>
+
+      <div class="credit">
+        Created by
+        
+          <span>Kalaiyarasan G</span>
+        
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+
+    <script>
+      lightGallery(document.querySelector(".projects .box-container"));
+    </script>
+  </body>
+</html>
